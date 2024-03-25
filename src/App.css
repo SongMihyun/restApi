@@ -1,0 +1,19 @@
+.App{padding: 10px 50px; box-sizing: border-box;}
+.App h1{text-align: center;}
+.App .movie{
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 7px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.App .movie .movie-title{flex-grow: 1;}
+.App .movie .movie-year{font-size: .6rem; color: #f00}
+.App input{width: 100%; border: 1px solid #ddd; padding: 7px; margin-bottom: 5px; box-sizing: border-box;}
+.App button{width: 100%; border: none; padding: 7px; margin-bottom:30px; box-sizing: border-box; background: #f00; color: #fff}
+.App .removeBtn button{
+  margin-bottom: 0;
+}
+.errText{color: #f00; font-size: 12px; margin-bottom: 5px;}
+.addText{color: #ccc; font-size: 14px;}
